@@ -1,4 +1,4 @@
-# HComp - Helper Component Library
+# HComp - React Helper Component Library
 
 HComp is a helper component library that aims to improve code readability and make your life easier. It provides a set of components that can be used to enhance the visibility and maintainability of your code. With HComp, you can write cleaner and more expressive code.
 
@@ -25,3 +25,7 @@ We recommend exploring the documentation for the individual components to levera
 ## Conclusion
 
 HComp is a powerful helper component library that enhances code readability and simplifies complex rendering logic. With its Switch, For, and Show components, you can write cleaner and more maintainable code. Refer to the TypeScript documentation for each component to unleash the full potential of HComp in your projects!
+
+## Download
+
+https://www.npmjs.com/package/hcomp

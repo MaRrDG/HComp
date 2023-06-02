@@ -1,7 +1,7 @@
 {
   "name": "hcomp",
-  "version": "0.0.1",
-  "description": "HComp is a helper component library that aims to improve code readability and make your life easier. ",
+  "version": "0.0.3",
+  "description": "HComp is a helper component library that aims to improve code readability and make your life easier.",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs"
   },
