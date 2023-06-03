@@ -13,6 +13,7 @@ import { IScrollToProps } from "./index.types";
  * @param className - The CSS class name for the ScrollTo button.
  * @param isClickable - Specifies whether the ScrollTo button is clickable. Defaults to true.
  * @param behavior - The scrolling behavior. Can be "smooth" or "auto". Defaults to "smooth".
+ * @param style - The style prop for the ScrollTo Button.
  *
  * @example
  * ```tsx
@@ -24,11 +25,21 @@ import { IScrollToProps } from "./index.types";
  *   className="scroll-button"
  *   isClickable={true}
  *   behavior="smooth"
+ *   style={style}
  * />
  * ```
  */
 
-const ScrollTo = ({ title = "ScrollTo", to = "up", scrollWidth = "max", onClick, className, isClickable = true, behavior = "smooth" }: IScrollToProps) => {
+const ScrollTo = ({
+  title = "ScrollTo",
+  to = "up",
+  scrollWidth = "max",
+  onClick,
+  className,
+  isClickable = true,
+  behavior = "smooth",
+  style,
+}: IScrollToProps) => {
   const scrollOptions: ScrollToOptions = {
     top: ["up", "down"].includes(to) ? (scrollWidth === "max" ? 200 : scrollWidth) : 0,
     left: ["right", "left"].includes(to) ? (scrollWidth === "max" ? 200 : scrollWidth) : 0,
@@ -37,6 +48,7 @@ const ScrollTo = ({ title = "ScrollTo", to = "up", scrollWidth = "max", onClick,
 
   return (
     <button
+      style={style}
       onClick={() => {
         if (!isClickable) return;
         window.scrollTo(scrollOptions);

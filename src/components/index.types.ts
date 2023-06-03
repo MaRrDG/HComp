@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { CSSProperties, ReactNode } from "react";
 import Case from "./Switch/Case";
 
 /**
@@ -131,4 +131,9 @@ export interface IScrollToProps {
    * The scrolling behavior. Can be "smooth" or "auto". Defaults to "smooth".
    */
   behavior?: "smooth" | "auto";
+
+  /**
+   * The style prop for the ScrollTo Button
+   */
+  style?: CSSProperties;
 }
