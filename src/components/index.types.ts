@@ -92,3 +92,43 @@ export interface ISwitchComponent extends React.FC<ISwitchProps> {
    */
   Case: typeof Case;
 }
+
+/**
+ * The properties for the `ScrollTo` component.
+ */
+export interface IScrollToProps {
+  /**
+   * The title of the ScrollTo button.
+   */
+  title?: React.ReactNode;
+
+  /**
+   * The direction to scroll. Can be one of: "up", "down", "left", or "right".
+   */
+  to?: "up" | "down" | "left" | "right";
+
+  /**
+   * The scroll width. Can be "max" or a specific number.
+   */
+  scrollWidth?: "max" | number;
+
+  /**
+   * The callback function to be called when the button is clicked.
+   */
+  onClick?: () => void;
+
+  /**
+   * The CSS class name for the ScrollTo button.
+   */
+  className?: string;
+
+  /**
+   * Specifies whether the ScrollTo button is clickable. Defaults to true.
+   */
+  isClickable?: boolean;
+
+  /**
+   * The scrolling behavior. Can be "smooth" or "auto". Defaults to "smooth".
+   */
+  behavior?: "smooth" | "auto";
+}

@@ -29,3 +29,7 @@ HComp is a powerful helper component library that enhances code readability and 
 ## Download
 
 https://www.npmjs.com/package/hcomp
+
+## Github
+
+https://github.com/MaRrDG/HComp
