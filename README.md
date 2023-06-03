@@ -16,7 +16,7 @@ The For component provides a clean and intuitive way to iterate over arrays or l
 
 The Show component simplifies the process of conditionally rendering components based on a given condition. It allows you to control the visibility of components without writing complex conditional logic. With the Show component, you can easily toggle the display of components based on user interactions or other dynamic conditions.
 
-### ScrollTo Component
+### ScrollTo Component ~NEW~
 
 The ScrollTo component is a button component that scrolls the window to a specific direction or position. When clicked, it triggers a scroll action using the specified scroll options. This component is very customizable, you can change the title, scrollWidth, scrollDirection, the style of component, the behavior.
 
