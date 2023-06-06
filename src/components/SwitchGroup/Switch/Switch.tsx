@@ -1,6 +1,6 @@
 import React from "react";
-import Case from "./Case";
-import { ISwitchComponent } from "../index.types";
+import Case from "../Case/Case";
+import { ISwitchComponent } from "../../../shared/index.types";
 
 /**
  * A component that conditionally renders content based on the Switch.Case `when` prop.

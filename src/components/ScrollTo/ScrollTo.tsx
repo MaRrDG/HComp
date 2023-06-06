@@ -1,5 +1,5 @@
 import React from "react";
-import { IScrollToProps } from "./index.types";
+import { IScrollToProps } from "../../shared/index.types";
 
 /**
  * A button component that scrolls the window to a specific direction or position.

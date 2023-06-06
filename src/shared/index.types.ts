@@ -1,5 +1,5 @@
 import { CSSProperties, ReactNode } from "react";
-import Case from "./Switch/Case";
+import Case from "../components/SwitchGroup/Case/Case";
 
 /**
  * Props for the `Show` component.

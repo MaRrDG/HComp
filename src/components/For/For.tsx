@@ -1,5 +1,5 @@
 import React from "react";
-import { IForProps } from "./index.types";
+import { IForProps } from "../../shared/index.types";
 
 /**
  * A component that iterates over an array of items and renders content for each item.

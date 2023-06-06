@@ -1,10 +1,16 @@
 {
   "name": "hcomp",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "HComp is a helper component library that aims to improve code readability and make your life easier.",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "npx rimraf dist & rollup -c --bundleConfigAsCjs"
   },
+  "keywords": [
+    "React",
+    "Typescript",
+    "Reusable",
+    "Javascript"
+  ],
   "author": "Mario Theodor",
   "license": "MIT",
   "devDependencies": {

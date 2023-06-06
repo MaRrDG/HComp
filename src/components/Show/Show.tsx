@@ -1,5 +1,5 @@
 import React from "react";
-import { IShowProps } from "./index.types";
+import { IShowProps } from "../../shared/index.types";
 
 /**
  * A component that conditionally renders content based on the `when` prop.

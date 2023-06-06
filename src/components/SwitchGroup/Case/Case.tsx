@@ -1,5 +1,5 @@
 import React from "react";
-import { ICaseProps } from "../index.types";
+import { ICaseProps } from "../../../shared/index.types";
 
 /**
  * A component that conditionally renders content based on the `when` prop, and you can use it inside Switch component as Switch.Case
