@@ -1,6 +1,6 @@
 {
   "name": "hcomp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "HComp is a helper component library that aims to improve code readability and make your life easier.",
   "scripts": {
     "build": "npx rimraf dist & rollup -c --bundleConfigAsCjs"
